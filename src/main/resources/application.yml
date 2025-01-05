@@ -1,0 +1,16 @@
+logging:
+  file:
+    path: "logs"
+  logback:
+    rollingpolicy:
+      total-size-cap: "2GB"
+
+spring:
+  output:
+    ansi:
+      enabled: "always"
+  profiles:
+    active: "dev"
+
+discord:
+  token: "asdfasdfasdfasdf"
