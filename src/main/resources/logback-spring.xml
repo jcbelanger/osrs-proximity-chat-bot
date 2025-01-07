@@ -11,10 +11,12 @@
     </appender>
 
     <springProfile name="dev">
-        <logger name="com.github.jcbelanger" additivity="false" level="DEBUG" />
-        <logger name="org.springframework" level="INFO" />
+        <logger name="com.github.jcbelanger" level="DEBUG" additivity="false" >
+            <appender-ref ref="CONSOLE" />
+            <appender-ref ref="ASYNC" />
+        </logger>
 
-        <root level="DEBUG">
+        <root level="INFO">
             <appender-ref ref="CONSOLE" />
             <appender-ref ref="ASYNC" />
         </root>

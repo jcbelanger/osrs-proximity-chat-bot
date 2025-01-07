@@ -36,3 +36,7 @@ build/
 
 ### log4j ###
 logs/
+
+### secrets ###
+application-prod.yml
+application-dev.yml

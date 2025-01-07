@@ -10,7 +10,9 @@ spring:
     ansi:
       enabled: "always"
   profiles:
-    active: "dev"
+    active: "prod"
 
 discord:
-  token: "asdfasdfasdfasdf"
+  token: "Reset token from: https://discord.com/developers/applications/1324842327142957163/bot"
+  application: 1324842327142957163
+  guild: 1324842840278302742
